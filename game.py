@@ -1,3 +1,5 @@
+#List of question for referece
+
 #who are the characters
 q1a = ["jabari, his dad, and his sister", "jabari, his cousins and his dad", "jabari, his friends, and his dad"]
 
@@ -21,8 +23,9 @@ q7a = ["i don’t want to do that again", "i want to go home", "surprise double 
 
 score = 0
 
+#Asking the questions
 
-print ("Welcome to the Jabari Jumps quiz!")
+print ("Welcome to the Jabari Jumps quiz! Make sure to type in exactly one of the possible answers. Make sure that you have no capital letters or periods in your answer. Good luck!")
 
 q1q = input("Q1. Who are the characters? Possible answers are; jabari, his dad, and his sister; jabari, his cousins and his dad; jabari, his friends, and his dad: ")
 if q1q == "jabari, his dad, and his sister":
@@ -73,4 +76,28 @@ if q7q == "surprise double backflip is next":
 else:
     print("Incorrect!")
 
-print(score)
+#Telling what score you got
+
+if score == 0:
+    print("You got 0/7 correct. Try again to receive a higher score!")
+
+if score == 1:
+    print("You got 1/7 correct. Try again to receive a higher score!")
+
+if score == 2:
+    print("You got 2/7 correct. Try again to receive a higher score!")
+
+if score == 3:
+    print("You got 3/7 correct. Try again to receive a higher score!")
+
+if score == 4:
+    print("You got 4/7 correct. Good job!")
+
+if score == 5:
+    print("You got 5/7 correct. Good job!")
+
+if score == 6:
+    print("You got 6/7 correct. Great job!")
+
+if score == 7:
+    print("You got 7/7 correct. Perfect!")
